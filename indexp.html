@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- OpenLayers CSS: CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@7.3.0/ol.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Your Name</h1>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="background.html">Background</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome!</h2>
+      <p>Short intro about yourself and what this page contains.</p>
+    </section>
+
+    <section id="map-section">
+      <h3>OpenLayers Map</h3>
+      <div id="map" class="map-box"></div>
+      <p class="map-caption">This map uses OpenLayers.</p>
+    </section>
+
+    <section class="contact">
+      <h3>Social</h3>
+      <p>GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Your Name</small>
+  </footer>
+
+  <!-- OpenLayers script -->
+  <script src="https://cdn.jsdelivr.net/npm/ol@7.3.0/dist/ol.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
