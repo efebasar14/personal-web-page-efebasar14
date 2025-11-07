@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Name — Home</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <!-- OpenLayers CSS: CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@7.3.0/ol.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efe Başar Yöney | Personal Web Page</title>
+  <link rel="stylesheet" href="stylep.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <h1>Your Name</h1>
-    <nav class="main-nav">
+  <header>
+    <h1>Efe Başar Yöney</h1>
+    <nav>
       <a href="index.html">Home</a>
       <a href="background.html">Background</a>
       <a href="projects.html">Projects</a>
@@ -19,29 +19,32 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="intro">
       <h2>Welcome!</h2>
-      <p>Short intro about yourself and what this page contains.</p>
+      <p>
+        I’m <strong>Efe Başar Yöney</strong>, a Geomatics Engineering student at Hacettepe University.  
+        This personal website demonstrates my use of <b>HTML, CSS,</b> and <b>OpenLayers</b> for web mapping.
+      </p>
     </section>
 
-    <section id="map-section">
-      <h3>OpenLayers Map</h3>
-      <div id="map" class="map-box"></div>
-      <p class="map-caption">This map uses OpenLayers.</p>
+    <section class="map-section">
+      <h2>OpenLayers Map</h2>
+      <div id="map" style="width:100%; height:400px; border:1px solid #ccc; border-radius:10px;"></div>
+      <p class="note">This interactive map shows the <strong>Hacettepe University</strong> campus.</p>
     </section>
 
-    <section class="contact">
-      <h3>Social</h3>
-      <p>GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
+    <section class="social">
+      <h2>Social</h2>
+      <p>
+        <strong>GitHub:</strong> <a href="https://github.com/efebasar14" target="_blank">github.com/efebasar14</a>
+      </p>
     </section>
   </main>
 
   <footer>
-    <small>&copy; 2025 Your Name</small>
+    <p>© 2025 Efe Başar Yöney</p>
   </footer>
 
-  <!-- OpenLayers script -->
-  <script src="https://cdn.jsdelivr.net/npm/ol@7.3.0/dist/ol.js"></script>
-  <script src="js/map.js"></script>
+  <script src="jsmap.js"></script>
 </body>
 </html>
