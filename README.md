@@ -3,7 +3,7 @@
 
 **Author:** Efe Başar Yöney
 **Institution:** Hacettepe University – Department of Geomatics Engineering  
-**Website Link:** https://efebasar14.github.io (örnek)
+**Website Link:** https://efebasar14.github.io 
 
 ---
 
